@@ -1,0 +1,14 @@
+{
+  "name": "zoho-appreciation-widget",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Zoho People dashboard widget for Appreciation Shoutout",
+  "scripts": {
+    "start": "node server/proxy.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2"
+  }
+}
