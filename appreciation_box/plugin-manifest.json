@@ -1,0 +1,20 @@
+{
+  "locale": ["en"],
+  "service": "PEOPLE",
+  "whiteListedDomains": [],
+  "modules": {
+    "widgets": [
+      {
+        "location": "people.dashboard",
+        "name": "Appreciation Box",
+        "url": "/app/index.html",
+        "logo": ""
+      }
+    ]
+  },
+  "config": [],
+  "connectors": [],
+  "cspDomains": {
+    "connect-src": ["http://localhost:3001"]
+  }
+}

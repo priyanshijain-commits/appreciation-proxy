@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Appreciation Box</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="widget-card">
+    <h2>Appreciation Box</h2>
+    <p class="subtitle">People appreciated this week</p>
+    <div id="appreciationList">
+      <p>Loading...</p>
+    </div>
+  </div>
+ 
+  <div id="popupOverlay" class="popup-overlay">
+    <div class="popup">
+      <button class="close-btn" onclick="closeWishBox()">×</button>
+      <h3 id="popupName"></h3>
+      <p id="popupType" class="popup-type"></p>
+      <p id="popupComment" class="popup-comment"></p>
+      <p id="popupAddedBy" class="popup-added-by"></p>
+      <label>Write your wish</label>
+      <textarea id="wishMessage" placeholder="Type your message here..."></textarea>
+      <button class="send-btn" onclick="sendWish()">Send Wish</button>
+      <p id="successMessage" class="success"></p>
+    </div>
+  </div>
+ 
+  <script src="script.js"></script>
+</body>
+</html>

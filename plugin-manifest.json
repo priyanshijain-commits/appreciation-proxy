@@ -1,0 +1,28 @@
+{
+  "locale": ["en"],
+  "service": "PEOPLE",
+  "version": "2.0",
+  "whiteListedDomains": ["https://appreciation-proxy.onrender.com"],
+  "modules": {
+    "widgets": [
+      {
+        "location": "people.dashboard",
+        "name": "Appreciation Shoutout",
+        "url": "app/index.html",
+        "logo": ""
+      }
+    ]
+  },
+  "config": [],
+  "connectors": [],
+  "cspDomains": {
+    "connect-src": [
+      "https://static.zohocdn.com",
+      "https://appreciation-proxy.onrender.com",
+      "https://people.zoho.com"
+    ],
+    "script-src": [
+      "https://static.zohocdn.com"
+    ]
+  }
+}

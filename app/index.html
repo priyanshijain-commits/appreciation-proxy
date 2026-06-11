@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Appreciation Shoutout</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="widget-header">
+    <span style="font-size:22px">🏆</span>
+    <div>
+      <h2>Appreciation Shoutout</h2>
+      <div class="subtitle">Employees appreciated for their contributions</div>
+    </div>
+  </div>
+
+  <div id="appreciationList">
+    <p class="loading">Loading…</p>
+  </div>
+
+  <!-- Popup -->
+  <div class="popup-overlay" id="popupOverlay">
+    <div class="popup">
+      <button class="close-btn" onclick="closePopup()">✕</button>
+      <div class="popup-avatar" id="popAvatar"></div>
+      <h3 id="popName"></h3>
+      <div class="popup-type" id="popType"></div>
+      <div class="popup-comment" id="popComment"></div>
+      <div class="popup-added-by" id="popAddedBy"></div>
+      <label for="wishMessage">✉️ Send a wish</label>
+      <textarea id="wishMessage" placeholder="Type your congratulations here…"></textarea>
+      <button class="send-btn" id="sendBtn" onclick="sendWish()">Send Wish 🎉</button>
+      <div class="success" id="successMsg"></div>
+    </div>
+  </div>
+
+  <script src="https://static.zohocdn.com/sdk/inapp/v2.0/js/plugin-sdk.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
